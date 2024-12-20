@@ -22,10 +22,7 @@ def update_vector(theta,learning_rate):
 
 def kl_divergence(p, q):
     """
-    Compute the Kullback-Leibler Divergence D_KL(P || Q)
-    :param p: Probability distribution P (true distribution)
-    :param q: Probability distribution Q (approximation)
-    :return: KL divergence
+    increase in one direction relevant to the observation that we have 
     """
     p = np.array(p)
     q = np.array(q)
